@@ -14,7 +14,6 @@ CREATE TABLE ai_models
     accuracy FLOAT,
     trained_on DATE
 );
-
 INSERT INTO ai_models (model_id, model_name, student_name, algorithm, accuracy, trained_on)
 VALUES
 (1, 'ImageNet Classifier', 'Aarav Sharma', 'CNN', 96.45, '2022-05-17'),
